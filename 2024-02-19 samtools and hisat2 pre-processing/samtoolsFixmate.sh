@@ -1,0 +1,1 @@
+parallel samtools fixmate -rm {} /mnt/c/Users/s_aio/NGSAnalysisClass/smtoolsFixmate/{=s/._unsorted.bam//=}.fixmate.bam ::: *.bam

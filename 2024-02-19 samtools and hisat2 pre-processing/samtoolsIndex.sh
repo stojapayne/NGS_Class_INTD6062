@@ -1,0 +1,1 @@
+parallel samtools index {} ::: *_nodup.bam
