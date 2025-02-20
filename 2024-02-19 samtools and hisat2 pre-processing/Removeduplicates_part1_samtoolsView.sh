@@ -1,0 +1,1 @@
+parallel samtools view -b -o /mnt/c/Users/s_aio/NGSAnalysisClass/samtoolsView/{=s/hisat.sorted.sam//=}_unsorted.bam {} ::: *.sam

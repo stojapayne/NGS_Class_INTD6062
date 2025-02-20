@@ -1,0 +1,1 @@
+parallel "samtools flagstat {} > /mnt/c/Users/s_aio/NGSAnalysisClass/flagstats/{=s/.fixmate.bam//=}.txt" ::: *.fixmate.bam

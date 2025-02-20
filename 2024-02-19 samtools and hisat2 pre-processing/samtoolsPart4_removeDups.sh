@@ -1,0 +1,1 @@
+parallel samtools markdup -r {} /mnt/c/Users/s_aio/NGSAnalysisClass/samtoolsRemoveDups/{=s/.sort.bam//=}_nodup.bam ::: *.sort.bam
